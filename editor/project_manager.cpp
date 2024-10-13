@@ -1122,6 +1122,9 @@ ProjectManager::ProjectManager() {
 			case 6:
 				EditorScale::set_scale(2.0);
 				break;
+			case 7:
+				EditorScale::set_scale(2.5);
+				break;
 			default:
 				EditorScale::set_scale(EDITOR_GET("interface/editor/custom_display_scale"));
 				break;
